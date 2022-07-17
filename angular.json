@@ -5,6 +5,7 @@
     "api": "apps/api",
     "api-interfaces": "libs/api-interfaces",
     "sathesh": "apps/sathesh",
-    "sathesh-e2e": "apps/sathesh-e2e"
+    "sathesh-e2e": "apps/sathesh-e2e",
+    "ui": "libs/ui"
   }
 }

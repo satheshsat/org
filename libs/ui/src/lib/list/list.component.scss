@@ -1,0 +1,30 @@
+.list-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li{
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+.list-card{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.li-bar{
+    width: 100%;
+    overflow: hidden;
+}
+img{
+    vertical-align: middle;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-bar .img-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}

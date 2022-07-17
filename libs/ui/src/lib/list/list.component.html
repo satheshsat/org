@@ -1,0 +1,9 @@
+<ul class="list-ul list-card">
+    <li *ngFor="let data of list" class="li-bar" (click)="onClick(data)">
+        <img *ngIf="data.image" [src]="data.image" class="img-bar-item img-circle" style="width:85px">
+        <div class="w3-bar-item">
+          <span *ngIf="data.title" class="w3-large">{{data.title}}</span><br>
+          <span *ngIf="data.content">{{data.content}}</span>
+        </div>
+    </li>
+</ul>
