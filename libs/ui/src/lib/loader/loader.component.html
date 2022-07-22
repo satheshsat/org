@@ -1,1 +1,13 @@
-<div class="loader"></div>
+<div>
+    <div *ngIf="name == 'spinner'" class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <div *ngIf="name == 'ripple'" class="lds-ripple"><div></div><div></div></div>
+
+    <div *ngIf="name == 'facebook'" class="lds-facebook"><div></div><div></div><div></div></div>
+
+    <div *ngIf="name == 'dual-ring'" class="lds-dual-ring"></div>
+
+    <div *ngIf="name == 'ring'" class="lds-ring"><div></div><div></div><div></div><div></div></div>
+
+    <div *ngIf="name == 'roller'" class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
